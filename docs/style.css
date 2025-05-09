@@ -98,7 +98,7 @@ main{
 @media (min-width: 768px) and (max-width: 1024px) {
     main{
         grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(4, 1fr);
+        grid-template-rows: repeat(4, auto);
         grid-template-areas:
         "daniel daniel"
         "jonathan jeanette"
@@ -136,7 +136,7 @@ main{
 @media (max-width: 767px) {
     main{
         grid-template-columns: 1fr;
-        grid-template-rows: repeat(5, 1fr);
+        grid-template-rows: repeat(5, auto);
         grid-template-areas:
         "daniel "
         "jonathan"
@@ -152,23 +152,22 @@ main{
         min-height: auto;
         min-width: 0;
         width: 100%;
-        padding: 1.5rem;
+        padding: 1rem;
         box-sizing: border-box;
     }
     .card h2{
         font-size: 0.9rem ;
-        margin: 1.2rem 0 2rem 0;
+        margin: 1rem 0 1.5rem 0;
     }
     .card h3{
         font-size: 1.1rem ;
-        margin: 0.5rem 0;
+        margin: 0.3rem 0;
     }
     .card p{
         font-size: 0.9rem ;
-        margin: 0.5rem 0
     }
     .card-header img{
-        width: 3rem;
-        height: 3rem;
+        width: 2rem;
+        height: 2rem;
     }
 }
