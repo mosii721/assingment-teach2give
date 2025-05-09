@@ -10,13 +10,12 @@ body {
 main{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-rows: repeat(2, auto);
     grid-template-areas:
     "daniel daniel jonathan kira"
     "jeanette patrick patrick kira";
     gap: 2rem;
     max-width: 80%;
-    max-height: 90vh;
     margin: 1rem auto;
 }
 .card{
@@ -94,7 +93,11 @@ main{
     background-size: 150px;
     color: hsl(0, 0%, 100%);
 }
-
+footer{
+    text-align: center;
+    padding: 1rem;
+    margin: 2rem 0;
+}
 @media (min-width: 768px) and (max-width: 1024px) {
     main{
         grid-template-columns: repeat(2, 1fr);
