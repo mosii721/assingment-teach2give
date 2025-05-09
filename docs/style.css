@@ -87,12 +87,12 @@ main{
     height: 4.5rem;
     border-radius: 50%;
 }
-.icon{
+.icon {
     background-image: url(./images/bg-pattern-quotation.svg);
     background-repeat: no-repeat;
-    background-position: top right 130px ;
+    background-position: right 100px top 20px; 
+    background-size: 150px;
     color: hsl(0, 0%, 100%);
-    
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
